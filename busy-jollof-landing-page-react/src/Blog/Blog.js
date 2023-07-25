@@ -1,14 +1,13 @@
 import React from "react";
-import "./Home.css";
+import "./Blog.css";
 
-export const Home = () => {
+export const Blog = () => {
   return (
     <div className="div-container">
-       <h1>Homepage</h1>
+       <h1>Blog</h1>
     </div>
    
   );
 };
 
-export default Home;
-
+export default Blog;

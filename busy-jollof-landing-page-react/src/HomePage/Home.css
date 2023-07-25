@@ -1,0 +1,8 @@
+
+.div-container{
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1080px;
+}
