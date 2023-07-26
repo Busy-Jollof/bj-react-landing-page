@@ -88,6 +88,26 @@ a {
   padding: 5px;
 }
 
+@media (max-width: 1395px) {
+
+.logo-image {
+    height: 40px;
+    width: 210px;
+  }
+
+}
+
+
+@media (max-width: 960px) {
+    .mobile-menu-icon {
+        display: block;
+      }
+
+      .menu {
+        display: none;
+      }
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
   .brand {
