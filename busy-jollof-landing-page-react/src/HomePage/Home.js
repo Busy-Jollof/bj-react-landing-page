@@ -4,8 +4,23 @@ import "./Home.css";
 
 export const Home = () => {
   return (
-    <div className="div-container">
-       <h1>Homepage</h1>
+    <div className="">
+      <div className="home-div-wrapper">
+        <div className="hero-container">
+          <img src="./background.png" alt="background-img"/>
+        </div>
+        <div className="section-2-container">
+
+        </div>
+        <div className="section-3-container">
+
+        </div>
+        <div className="section-4-container">
+
+        </div>
+      <h1>Homepage</h1>
+      </div>
+       
        {/* <Footer /> */}
     </div>
    
