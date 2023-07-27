@@ -1,29 +1,23 @@
 import React from "react";
 import "./Home.css";
-//import Footer from "../Footer/Footer";
+import Footer from "../Footer/Footer";
+
 
 export const Home = () => {
   return (
-    <div className="">
-      <div className="home-div-wrapper">
-        <div className="hero-container">
-          <img src="./background.png" alt="background-img"/>
+    <div className="div-container">
+      
+      <div className="section-1-div">
+        <div className="hero-left-div"></div>
+        <div className="hero-right-div">
+          <img className="hero-left" src="./hero-right.png" alt=""/>
         </div>
-        <div className="section-2-container">
-
-        </div>
-        <div className="section-3-container">
-
-        </div>
-        <div className="section-4-container">
-
-        </div>
-      <h1>Homepage</h1>
       </div>
-       
-       {/* <Footer /> */}
-    </div>
-   
+      <div className="section-2-div">2</div>
+      <div className="section-3-div">3</div>
+      <div className="section-4-div">4</div>
+      <Footer />  
+    </div> 
   );
 };
 
