@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 37px;
+  height: 30px;
   color: #fff;
   font-size: 14px;
 }
@@ -27,13 +27,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: aqua; */
-  width: 1500px !important;
-  height: 80px;
+ /*  background-color: aqua;  */
+  width: 1700px !important;
+  height: 75px;
   font-size: 15px;
   font-weight: 600;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 55px;
+  padding-right: 55px;
 }
 
 .brand {
@@ -42,8 +42,8 @@
 }
 
 .logo-image {
-  height: 45px;
-  width: 225px;
+  height: 40px;
+  /* width: 225px; */
 }
 
 /* Mobile menu icon styles */
@@ -75,6 +75,7 @@
 /* Menu styles */
 .menu {
   display: flex;
+  margin: 0;
 }
 a {
   color: inherit;
@@ -85,7 +86,7 @@ a {
   list-style: none;
   margin-left: 1rem;
   color: #333;
-  padding: 5px;
+  padding: 10px;
 }
 
 @media (max-width: 1395px) {

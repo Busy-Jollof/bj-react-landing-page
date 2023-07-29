@@ -56,7 +56,7 @@ const NavMenu = () => {
                 <Link to="/launch-with-us">Launch with us</Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact">Contact us</Link>
               </li>
             </ul>
           </div>
