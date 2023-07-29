@@ -20,8 +20,8 @@ export const Home = () => {
             We are on a quest <br />to feed your thirst 
             for African-inspired meals.
           </p>
-          <button>Learn More</button>
-          <button>Reserve a spot</button>
+          <button style={{border: "none"}} >Learn More</button>
+          <button style={{backgroundColor: "whitesmoke", borderRadius: "5px", color: "green", width: "173px", border: "green"}}>Reserve a spot</button>
         </div>
 
 
