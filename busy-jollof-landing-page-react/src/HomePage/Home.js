@@ -103,14 +103,6 @@ export const Home = () => {
                 
             </div>
 
-
-
-
-
-
-
-            {/* <div className="sec-2-sub-div-2"></div>
-            <div className="sec-2-sub-div-2"></div> */}
           </div>
         </div>
       </div>
@@ -135,7 +127,27 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="section-4-div">4</div>
+
+
+      <div className="section-4-div">
+        <div className="sec-4-wrapper">
+          <p className="sec-4-title-text">Be in the know</p>
+          <p className="sec-4-desc-text">Join our community, become one of the 
+            beneficiaries of our first launch by 
+            staying <br/>connected to our 
+            fast growing community 
+            of hungry food lovers.
+            </p>
+            <input className="sec-4-input" type="text" placeholder="Enter your email address here"/><br/>
+            <button style={{
+              borderRadius: "5px", 
+              background: "rgba(2, 152, 55, 0.95)",
+              width: "101%",
+              height: "49px",
+              flexShrink: "0"
+              }}>Join our community</button>
+        </div>
+      </div>
       <Footer />
     </div>
   );
